@@ -13,7 +13,10 @@ npm install --save remove-protocol
 ```javascript
 var removeProtocol = require('remove-protocol')
 
-removeProtocol()  // => true
+removeProtocol('http://google.com')  // => 'google.com'
+removeProtocol('https://google.com')  // => 'google.com'
+removeProtocol('ftp://google.com')  // => 'google.com'
+removeProtocol('google.com')  // => 'google.com'
 ```
 
 ## License

@@ -2,7 +2,7 @@
   "name": "remove-protocol",
   "description": "Remove the protocol from a string.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,10 @@
     "url": "https://github.com/johnotander/remove-protocol.git"
   },
   "keywords": [
-
+    "protocol",
+    "remove",
+    "rm",
+    "http"
   ],
   "license": "MIT",
   "bugs": {
