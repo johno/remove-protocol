@@ -4,12 +4,11 @@
   "author": "John Otander",
   "version": "1.0.0",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "tape test/test.js | tap-dot",
-    "jshint": "standard"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -28,8 +27,6 @@
   "homepage": "https://github.com/johnotander/remove-protocol",
   "dependencies": {},
   "devDependencies": {
-    "tape": "*",
-    "tap-dot": "*",
-    "standard": "*"
+    "ava": "*"
   }
 }
